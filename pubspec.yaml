@@ -3,6 +3,17 @@ version: 1.0.0
 description: Byte flow is a pure dart , dependency less library that provides common utility functions for lists and strings
 homepage: https://github.com/pacifio/byte_flow
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.12.0"
+
+dependencies:
+  # path: ^1.8.0
+  design_by_contract:
+    git: 
+      url: https://github.com/RoukayaZaki/dbc-library.git
+
 dev_dependencies:
-  test: ^1.17.10
+  build_runner: ^2.4.6
+  watcher: ^1.1.0
+  matcher: ^0.12.16
+  file: ^7.0.0
+  pub_semver: ^2.1.4

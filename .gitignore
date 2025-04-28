@@ -1,1 +1,3 @@
 doc
+.dart_tool/
+*.g.dart
